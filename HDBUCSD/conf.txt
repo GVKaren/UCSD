@@ -1,0 +1,53 @@
+%                         Archivo de configuración <3
+%              NO MODIFIQUE EL FORMATO NI ORDEN DE ESTE ARCHIVO. No está validado.
+%Dirección del archivo con nombre partiendo de este folder
+%Nombre que tendrán los archivos sin contar el número secuencial.
+%Veces que será ejecutado el archivo
+%Evaluaciones máximas en el MOEA/D
+%Tamaño que tendrá la población en el MOEA/D
+%Tamaño del vecindario
+%Tasa de cruza
+%Tamaño del paso
+%Tasa de mutación puntual
+%
+%Marque con X aquellos elementos que se necesiten
+%Solución: Frente pareto, Solución de mejor compromiso, Distancias intra e intre
+%ARFF: Archivo Arff normalizado, multiplicado y filtrado
+%Resultado de clasificación
+%
+%Archivo;/home/katthyren/Repos/icoteam/fs/Arffs/distancias.arff
+%Archivo;/home/katthyren/Repos/icoteam/fs/Arffs/APD_dataset_JUST_Families.arff
+Archivo;/home/katthyren/Repos/icoteam/fs/Arffs/APD_dataset.arff
+%Archivo;/home/katthyren/Repos/icoteam/fs/Arffs/WekaCLuster/APD_datasetCluster0Numeric.arff
+%Archivo;/Users/bio01/biobonito/fs/Arffs/VirusVsBacterias.arff
+%Archivo;/home/katthyren/Repos/biobonito/fs/Arffs/fernandes_datase_wid.arff
+Nombre;Cluster0AllActivitiesMOEAD
+Repeticiones;10
+Iteraciones;500000
+Población;500
+Vecindario_T;0.05
+Cruza_CR;0.95
+Paso_F;0.7
+PMR;0.004329
+Lim inf;0
+Lim sup;10
+lambda1;50
+lamba2;50
+	SALIDA
+Solución;X
+ARFF;X
+Tiempos;X
+Estadistico;X
+	Compromiso
+LambdaInf;0.4
+LambdaSup;0.6
+SaltoLambda;0.02
+	Evaluación
+Folds;10
+KNN;11
+CrossValidation;X
+ventana;10
+	Algoritmo
+MaxProm;0
+minProm;0
+L1;1
